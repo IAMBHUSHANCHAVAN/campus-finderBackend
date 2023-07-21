@@ -1,6 +1,7 @@
 # Campus-finder Backend
 
-This repository contains the backend code for Campus Finder, a platform that helps students find and explore various schools, colleges, and investors. The backend is built using Node.js, Express.js, and MongoDB and utilizes various npm packages for its functionality. The backend provides features like user authentication, review management, profile editing, and CRUD APIs for colleges and schools. Additionally, certain features are restricted to the admin only, such as deleting or inserting colleges and schools, as well as editing existing entries.
+This repository contains the backend code for Campus Finder, a platform that helps students find and explore various schools, colleges, and investors. 
+**The backend is developed using Node.js, Express.js, and MongoDB, and it leverages several npm packages to ensure seamless functionality. The backend's key features include user authentication, review management, profile editing, and powerful CRUD APIs for managing colleges and schools. also there the user can add their favorite colleges and schools to a personalized wishlist. For security purposes, certain functionalities are restricted to the admin, granting them exclusive privileges to delete or add colleges and schools, as well as edit existing entries.**
 
 ## Getting Started
 
@@ -13,6 +14,22 @@ To use this backend, follow the steps below:
 
 The API should now be up and running, ready to serve incoming requests.
 
+## Api Features:
+
+* **User Authentication**: Implementing a secure user authentication system to enable users to create accounts, log in, and access personalized features.
+
+* **Profile Editing**: Allowing users to modify their profile information, making it easier to keep their details up to date.
+
+* **Personalized Wishlist**: Enabling users to create a personalized wishlist by adding their favorite colleges and schools, allowing for easy access and organization of preferred choices.
+
+* **Search Feature**: Allowing users to search through different colleges and schools.
+
+* **Review Management**: Facilitating users to post, view, and manage reviews for different schools and colleges, contributing to an informed decision-making process.
+
+* **Powerful CRUD APIs**: Providing Create, Read, Update, and Delete APIs to manage colleges and schools, ensuring efficient data management.
+
+* **Admin Privileges**: Limiting certain functionalities, such as adding, deleting, or editing entries, to the admin role to maintain data integrity.
+
 ## To check api
 If you are using the Thunder client to test the API, you can import the **api_collection.json** file provided in this repository. The collection contains sample API requests that you can use to interact with the backend.
 
@@ -20,6 +37,11 @@ If you are using the Thunder client to test the API, you can import the **api_co
 For any issues or inquiries, please don't hesitate to contact.
 
 Happy coding! 🚀
+
+
+
+
+
 
 ## Contributing
 
